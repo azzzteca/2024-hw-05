@@ -503,6 +503,10 @@ img {
   color: var(--footer-primary-text-color);
 }
 
+.footer-socials {
+  margin-right: 80px;
+}
+
 .social-header {
   font-size: 16px;
   font-weight: 500;
@@ -520,4 +524,61 @@ img {
 
 .socials-list .social-link:hover {
   background-color: #31d0aa;
+}
+
+.footer-label {
+  display: block;
+
+  margin-bottom: 20px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-background-color);
+}
+
+.footer-email {
+  width: 264px;
+  padding: 8px 20px 8px 16px;
+  margin-right: 24px;
+
+  border: 1px solid var(--primary-background-color);
+  border-radius: 4px;
+
+  color: var(--primary-background-color);
+  background-color: inherit;
+}
+
+.footer-email::placeholder {
+  display: inline-block;
+
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+
+  color: var(--primary-background-color);
+}
+
+.footer-button {
+  position: relative;
+  padding: 8px 62px 8px 24px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  background-color: var(--logo-primary-color);
+
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.button-icon {
+  position: absolute;
+  top: 10px;
+  right: 24px;
 }
